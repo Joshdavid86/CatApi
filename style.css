@@ -1,0 +1,44 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+h1{
+  text-align: center;
+}
+
+
+
+img{
+  display: block;
+  margin: 0 auto;
+  height: 300px;
+}
+
+button{
+  border: 2px solid black;
+  border-radius: 11px;
+  background-color: skyblue;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+button:hover {
+  background-color: aliceblue;
+}
+  
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
